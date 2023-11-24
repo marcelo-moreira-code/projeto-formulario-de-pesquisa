@@ -12,12 +12,10 @@
 
     <form action="" id="formulario-pesquisa">
         <fieldset>
-            <label for="nome" id="nome-label">Nome <input id="nome" name="nome" type="text" placeholder="Preencha este campo" required> </label>
-            <label for="email" id="email-label">Email <input id="email" name="email" type="email" placeholder="Preencha este campo" required> </label>
-            <label for="idade" id="idade-label">Idade (opcional) <input id="idade" name="idade" type="number" min="10" max="99" placeholder="O valor deve ser entre 10 e 99" required> </label>
+            <label for="nome" id="nome-label">Nome: <input id="nome" name="nome" type="text" placeholder="Preencha este campo" required> </label>
+            <label for="email" id="email-label">Email: <input id="email" name="email" type="email" placeholder="Preencha este campo" required> </label>
+            <label for="idade" id="idade-label">Idade (opcional): <input id="idade" name="idade" type="number" min="10" max="99" placeholder="O valor deve ser entre 10 e 99" required> </label>
 
-
-            
             <label for="perfil">
                 <legend>Escolha a melhor opção que descreve perfil atual?</legend>
                 <select name="perfil" id="perfil">
@@ -31,7 +29,7 @@
             </label>
         </fieldset>
         
-        <fieldset>
+        <fieldset id="recomenda">
             <legend>Você recomendaria a nossa plataforma para um amigo?</legend>
             <label for="definitivamente" ><input id="definitivamente" name="escolha" type="radio" class="inline" checked>Definitivamente </label>
             <label for="talvez"><input id="talvez" value="talvez" name="escolha" type="radio" class="inline">Talvez  </label>
