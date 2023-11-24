@@ -49,7 +49,7 @@ fieldset:last-of-type {
 }
 
 /* Para que todos os elementos input, textarea e select, e ocupem toda a largura dos elementos pais.
- adicionei 10px de margin ao topo dos elementos selecionados. Defina as outras margens como 0.*/
+ adicionei 10px de margin ao topo dos elementos selecionados. Defini as outras margens como 0.*/
 
 input, textarea, select {
     width: 100%;
@@ -74,7 +74,7 @@ select#funcionalidade ,#perfil {
     height: 2em;
     font-size: 1.1rem;
 }
-/* Para estilizar o botão enviar, você pode usar um seletor de atributo, que seleciona um elemento com base no valor dado. Exemplo:
+/* Para estilizar o botão enviar, usei um seletor de atributo, que seleciona um elemento com base no valor dado. Exemplo:
 
 input[name="password"]*/
 
