@@ -103,3 +103,17 @@ label {
     display: block;
     margin: 0.5rem 0;
 }
+
+footer {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: aquamarine;
+}
